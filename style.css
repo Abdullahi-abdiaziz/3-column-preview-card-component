@@ -39,6 +39,9 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     background-color: var(--body-bg);
+
+    display: grid;
+    place-items: center;
 }
 img {
     display: block;
@@ -81,12 +84,7 @@ button:hover {
     font-weight: var(--fw-regular);
     outline: 2px solid var(--button-bg);
 }
-/* Styles */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Utilities Styles */
 .card {
     padding: 4rem 2rem;
     max-width: 375px;
