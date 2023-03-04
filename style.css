@@ -65,11 +65,14 @@ p {
     margin-top: 1.5rem;
     letter-spacing: .05em;
 }
-button {
+a {
+    display: block;
     margin-top: 2rem;
     background-color: var(--button-bg);
     border-radius: 4rem;
     font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    text-decoration: none;
     color: inherit;
     padding: 1rem 2.5rem;
     font-weight: var(--fw-bold);;
@@ -78,7 +81,10 @@ button {
     border: none;
     cursor: pointer;
 }
-button:hover {
+a.links {
+    margin-top: 3.5rem;
+}
+a:hover {
     background-color: transparent;
     color: var(--paragraph-color);
     font-weight: var(--fw-regular);
